@@ -26,12 +26,11 @@
 
   ### 03 - Pet em java
   - O que foi feito?  
-    
+  ...
   - Com quem e como fez?  
   Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp.
-  - O que aprendeu a fazer?
+  - O que aprendeu a fazer?  
   Boa parte do comandos já que foi o primeiro código em java, entendi melhor como funciona algumas funções em java que já sabia em python.
   - O que tem dificudade ainda?  
   Em partes da linguagem por ser nova, mas já saí do zero, consigo ler um código e entender, mas não fazer um do zero sozinho.
-  - Quanto tempo levou pra fazer?  
-  
+  - Quanto tempo levou pra fazer?
