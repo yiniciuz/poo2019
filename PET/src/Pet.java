@@ -1,5 +1,3 @@
-import com.sun.source.doctree.SystemPropertyTree;
-
 import java.util.Scanner;
 
 public class Pet {
@@ -7,8 +5,6 @@ public class Pet {
     int energia;
     int saciedade;
     int limpeza;
-    /*__int idade;
-    int diamantes;*/
     int energiaMax;
     int saciedadeMax;
     int limpezaMax;
@@ -18,9 +14,9 @@ public class Pet {
         this.energia = energia;
         this.saciedade = saciedade;
         this.limpeza = limpeza;
-        this.energiaMax = energiaMax;
-        this.saciedadeMax = saciedadeMax;
-        this.limpezaMax = limpezaMax;
+        this.energiaMax = energia;
+        this.saciedadeMax = saciedade;
+        this.limpezaMax = limpeza;
     }
 
     public String toString() {
@@ -33,13 +29,23 @@ public class Pet {
 
 class Controller{
     public static void main(Sting[] args) {
-        Scanner scan = new Scanner(System.in); /*__ cria uma variavel scan do tipo
-                                                Scanner que o parametro é System in, uma entrada do cliente*/
+        Scanner scan = new Scanner(System.in);
         Pet pet = new Pet(" ",0, 0, 0);
-        System.out.println("init, show, end");
-        while(true){
-            String[] ui; /*__ O '[]' significa que se trata de uma vetor (lista) do tipo string */
-
+        System.out.println("init (+ nome, energia, saciedade, limpeza), show, end");
+        label:
+        while (true) {
+            String line = scan.nextLine();
+            String[] ui = line.split(" ");
+            switch (ui[0]) {
+                case "init":
+                    pet = new Pet(ui[1], Integer.parseInt(ui[2]), Integer.parseInt(ui[3]), Integer.parseInt(ui[4]);
+                case "show":
+                    System.out.println(pet);
+                case "end":
+                    break label;
+                default:
+                    System.out.println("comando invalido");
+            }
         }
     }
 
