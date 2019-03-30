@@ -26,7 +26,7 @@
 
   ### 03 - Pet em java
   - O que foi feito?  
-  ...
+  A única parte não feita foi fazer o Pet morrer, porque deixei passar muitos códigos pra fazer, resolvi dar seguimento, mas pretendo voltar e acabar.
   - Com quem e como fez?  
   Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp.
   - O que aprendeu a fazer?  
@@ -34,3 +34,4 @@
   - O que tem dificudade ainda?  
   Em partes da linguagem por ser nova, mas já saí do zero, consigo ler um código e entender, mas não fazer um do zero sozinho.
   - Quanto tempo levou pra fazer?
+  cerca de 2 horas e meia pra 3 horas corridas.
