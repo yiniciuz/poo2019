@@ -24,7 +24,7 @@
   - Quanto tempo levou pra fazer?  
   Por volta de 2 horas e meia.
 
-  ### 03 - Pet em java
+### 03 - Pet em java
   - O que foi feito?  
   A única parte não feita foi fazer o Pet morrer, porque deixei passar muitos códigos pra fazer, resolvi dar seguimento, mas pretendo voltar e acabar.
   - Com quem e como fez?  
@@ -35,3 +35,15 @@
   Em partes da linguagem por ser nova, mas já saí do zero, consigo ler um código e entender, mas não fazer um do zero sozinho.
   - Quanto tempo levou pra fazer?
   cerca de 2 horas e meia pra 3 horas corridas.
+
+### 04 - Topic  
+- O que foi feito?  
+...  
+- Com quem e como fez?  
+Sozinho com a ajuda do vídeo da aula.
+- O que aprendeu?  
+Basicamente um pouco mais de como funciona o fluxo de informações e do programa em Java.
+- O que tem dificuldade ainda?  
+Já consigo ler e entender o código praticamente inteiro, mas ainda sinto dificuldades de fazer do zero sozinho, preciso de uma certa ajuda, pincipalemente dos vídeos, por ainda estar inicializando na linguagem.
+- Quanto tempo levou pra fazer?  
+...
