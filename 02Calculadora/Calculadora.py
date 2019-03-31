@@ -3,7 +3,6 @@ class Calc:
 		self.battery = 0
 		self.batteryMax = batmax
 
-
 	def charge(self, quant):
 		self.battery += quant
 		if self.battery > self.batteryMax:
