@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ab57373-a4a8-4efd-985c-7cc870f1b650" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../03PET/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/PET.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/src/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03PET/src/PetTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Topic/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Topic/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04Topic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/Desktop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04Topic/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04Topic/src/Topic" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +16,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="643">
+              <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -82,6 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,13 +76,21 @@
               <item name="03Pet" type="b2602c69:ProjectViewProjectNode" />
               <item name="03Pet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="03Pet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03Pet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,10 +132,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="27" width="1315" height="741" extended-state="6" />
+    <frame x="0" y="-29" width="1366" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24940805" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25335437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -149,7 +144,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -171,8 +166,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="643">
+          <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
