@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import static java.lang.Integer.*;
 
 class Pet {
@@ -27,10 +26,10 @@ class Pet {
 
     public String toString() {
         return "[" + this.nome + "] " +
-                "E: " + this.energia + "/" + this.energiaMax + ", " +
-                "S: " + this.saciedade + "/" + this.saciedadeMax + ", " +
-                "L: " + this.limpeza + "/" + this.limpezaMax + ", " +
-                "idade: " + this.idade + " - diamantes: " + this.diamante;
+                "E:" + this.energia + "/" + this.energiaMax + ", " +
+                "S:" + this.saciedade + "/" + this.saciedadeMax + ", " +
+                "L:" + this.limpeza + "/" + this.limpezaMax + ", " +
+                "D: " + this.diamante + ", I:" + this.idade;
     }
 }
 
