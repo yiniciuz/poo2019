@@ -38,7 +38,7 @@ public class Controller{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Pet pet = new Pet(" ",0, 0, 0);
-        System.out.println("init (+nome, energia, saciedade, limpeza), show, end")
+        System.out.println("init (+nome, energia, saciedade, limpeza), show, end");
         while (true) {
             String line = scan.nextLine();
             String[] ui = line.split(" ");
@@ -51,7 +51,7 @@ public class Controller{
             }else if(ui[0].equals("show")){
                 System.out.println(pet);
             }else{
-                System.out.println("fail: comando invalido");
+                System.out.println("comando invalido");
             }
         }
     }
