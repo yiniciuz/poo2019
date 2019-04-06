@@ -26,24 +26,24 @@
 
 ### 03 - Pet em java
 - O que foi feito?  
-A única parte não feita(até agora, mas prossigo tentando) foi fazer o Pet morrer brincando ou se fome ou de sujeira, porque deixei passar muitos códigos pra fazer, resolvi dar seguimento.
+O Pet inteiro, começando do zero.
 - Com quem e como fez?  
-Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp.
+Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp algumas vezes, mas consegui fazer algumas (poucas) partes sozinho.
 - O que aprendeu a fazer?  
-Boa parte do comandos já que foi o primeiro código em java, entendi melhor como funciona algumas funções em java que já sabia em python.
+Praticamente tudo, foi o primeiro código em Java completo, entendi bem sobre Controller, Get e Set e como funciona o construtor.
 - O que tem dificudade ainda?  
-Em partes da linguagem por ser nova, mas já saí do zero, consigo ler um código e entender, mas não fazer um do zero sozinho.
+Em partes da linguagem por ser nova, porém consigo ler um código e entender, mas não fazer um do zero sozinho, não um código completo.
 - Quanto tempo levou pra fazer?  
-Progressivamente, um pouco um dia, um pouco no outro, num total até agora cheguei a 3 horas.
+Fiz progressivamente, fazia um pouquinho por dia, acredito ter levado no máximo 4 horas e meia.
 
 ### 04 - Topic  
 - O que foi feito?  
-...  
+Ainda estou fazendo, progressivamente.  
 - Com quem e como fez?  
-Sozinho com a ajuda do vídeo da aula.
+Fiz junto com o vídeo da aula.  
 - O que aprendeu?  
-Basicamente um pouco mais de como funciona o fluxo de informações e do programa em Java.
+Um pouco mais da linguagem que é nova para mim.  
 - O que tem dificuldade ainda?  
-Já consigo ler e entender o código praticamente inteiro, mas ainda sinto dificuldades de fazer do zero sozinho, preciso de uma certa ajuda, pincipalemente dos vídeos, por ainda estar inicializando na linguagem.
+Um pouco na lógic, é o que ainda preciso de um pouco de ajuda.  
 - Quanto tempo levou pra fazer?  
-...
+Até agora, cerca de 2 e meia horas.
