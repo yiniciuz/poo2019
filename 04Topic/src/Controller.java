@@ -46,9 +46,13 @@ class Topic {
         }
         return saida + "]";
     }
+
+    public void inserir(Passageiro pass){
+        
+    }
 }
 
-class Controller {
+public class Controller {
     public static void main(String[] args) {
         Topic topic = new Topic(0,0);
         Scanner scan = new Scanner(System.in);
