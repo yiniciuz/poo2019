@@ -26,15 +26,15 @@
 
 ### 03 - Pet em java
 - O que foi feito?  
-A única parte não feita(até agora, mas prossigo tentando) foi fazer o Pet morrer brincando ou se fome ou de sujeira, porque deixei passar muitos códigos pra fazer, resolvi dar seguimento.
+O Pet inteiro, começando do zero.
 - Com quem e como fez?  
-Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp.
+Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp algumas vezes, mas consegui fazer algumas (poucas) partes sozinho.
 - O que aprendeu a fazer?  
-Boa parte do comandos já que foi o primeiro código em java, entendi melhor como funciona algumas funções em java que já sabia em python.
+Praticamente tudo, foi o primeiro código em Java completo, entendi bem sobre Controller, Get e Set e como funciona o construtor.
 - O que tem dificudade ainda?  
-Em partes da linguagem por ser nova, mas já saí do zero, consigo ler um código e entender, mas não fazer um do zero sozinho.
+Em partes da linguagem por ser nova, porém consigo ler um código e entender, mas não fazer um do zero sozinho, não um código completo.
 - Quanto tempo levou pra fazer?  
-Progressivamente, um pouco um dia, um pouco no outro, num total até agora cheguei a 3 horas.
+Fiz progressivamente, fazia um pouquinho por dia, acredito ter levado no máximo 4 horas e meia.
 
 ### 04 - Topic  
 - O que foi feito?  
