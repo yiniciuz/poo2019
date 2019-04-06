@@ -38,12 +38,12 @@ Fiz progressivamente, fazia um pouquinho por dia, acredito ter levado no máximo
 
 ### 04 - Topic  
 - O que foi feito?  
-...  
+Ainda estou fazendo, progressivamente.  
 - Com quem e como fez?  
-Sozinho com a ajuda do vídeo da aula.
+Fiz junto com o vídeo da aula.  
 - O que aprendeu?  
-Basicamente um pouco mais de como funciona o fluxo de informações e do programa em Java.
+Um pouco mais da linguagem que é nova para mim.  
 - O que tem dificuldade ainda?  
-Já consigo ler e entender o código praticamente inteiro, mas ainda sinto dificuldades de fazer do zero sozinho, preciso de uma certa ajuda, pincipalemente dos vídeos, por ainda estar inicializando na linguagem.
+Um pouco na lógic, é o que ainda preciso de um pouco de ajuda.  
 - Quanto tempo levou pra fazer?  
-...
+Até agora, cerca de 2 e meia horas.
