@@ -44,7 +44,12 @@ class Pet {
     }
 
     public void setLimpeza(int limpeza) {
-        this.limpeza = limpeza;
+        if(limpeza >= this.limpezaMax)
+            this.limpeza = limpezaMax;
+        else if(limpeza < 0)
+            this.limpeza = 0;
+        else
+            this.limpeza = limpeza;
     }
 
     public void play(){
@@ -55,8 +60,34 @@ class Pet {
         this.idade += 1;
     }
 
+    public void comer(){
+        this.setEnergia(this.getEnergia() -1);
+        this.setSaciedade(this.getSaciedade() +1);
+        this.idade += 1;
+    }
 
-    public Pet(String name, int energia,int saciedade,int limpeza){
+    public void dormir(){
+        if(this.energiaMax - this.energia < 5)
+            System.out.println("seu bichinho nao esta com sono");
+        this.idade += this.energiaMax - this.energia;
+        this.setEnergia(this.getEnergiaMax());
+    }
+
+
+    public int getEnergiaMax() {
+        return energiaMax;
+    }
+
+    public int getSaciedadeMax() {
+        return saciedadeMax;
+    }
+
+    public int getLimpezaMax() {
+        return limpezaMax;
+    }
+
+
+    public Pet(String name, int energia, int saciedade, int limpeza){
         this.nome = name;
         this.energia = energia;
         this.saciedade = saciedade;
@@ -77,6 +108,7 @@ class Pet {
     }
 }
 
+
 public class Controller{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -93,6 +125,10 @@ public class Controller{
                                      Integer.parseInt(ui[4]));
             }else if(ui[0].equals("play")){
                 pet.play();
+            }else if(ui[0].equals("comer")){
+                pet.comer();
+            }else if(ui[0].equals("dormir")){
+                pet.dormir();
             }else if(ui[0].equals("show")){
                 System.out.println(pet);
             }else{
