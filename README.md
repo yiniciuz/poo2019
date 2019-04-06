@@ -46,4 +46,8 @@ Um pouco mais da linguagem que é nova para mim.
 - O que tem dificuldade ainda?  
 Um pouco na lógic, é o que ainda preciso de um pouco de ajuda.  
 - Quanto tempo levou pra fazer?  
+<<<<<<< HEAD
 Até agora, cerca de 2 horas.
+=======
+Até agora, cerca de 2 e meia horas.
+>>>>>>> master
