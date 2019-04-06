@@ -3,14 +3,58 @@ import static java.lang.Integer.*;
 
 class Pet {
     String nome;
-    int energia;
-    int saciedade;
-    int limpeza;
-    int energiaMax;
-    int saciedadeMax;
-    int limpezaMax;
-    int idade;
-    int diamante;
+    private int energia;
+    private int saciedade;
+    private int limpeza;
+    private int energiaMax;
+    private int saciedadeMax;
+    private int limpezaMax;
+    private int idade;
+    private int diamante;
+
+
+    public int getEnergia() {
+        return energia;
+    }
+
+    public void setEnergia(int energia) {
+        if (energia >= this.energiaMax)
+            this.energia = energiaMax;
+        else if(energia < 0)
+            this.energia = 0;
+        else
+            this.energia = energia;
+    }
+
+    public int getSaciedade() {
+        return saciedade;
+    }
+
+    public void setSaciedade(int saciedade) {
+        if(saciedade >= this.saciedadeMax)
+            this.saciedade = saciedadeMax;
+        else if(saciedade < 0)
+            this.saciedade = 0;
+        else
+            this.saciedade = saciedade;
+    }
+
+    public int getLimpeza() {
+        return limpeza;
+    }
+
+    public void setLimpeza(int limpeza) {
+        this.limpeza = limpeza;
+    }
+
+    public void play(){
+        this.setEnergia(this.getEnergia() -2);
+        this.setSaciedade(this.getSaciedade() -1);
+        this.setLimpeza(this.getLimpeza() -3);
+        this.diamante += 1;
+        this.idade += 1;
+    }
+
 
     public Pet(String name, int energia,int saciedade,int limpeza){
         this.nome = name;
@@ -47,6 +91,8 @@ public class Controller{
                 pet = new Pet(ui[1], Integer.parseInt(ui[2]),
                                      Integer.parseInt(ui[3]),
                                      Integer.parseInt(ui[4]));
+            }else if(ui[0].equals("play")){
+                pet.play();
             }else if(ui[0].equals("show")){
                 System.out.println(pet);
             }else{
