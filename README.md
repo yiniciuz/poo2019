@@ -26,7 +26,7 @@
 
 ### 03 - Pet em java
 - O que foi feito?  
-O Pet inteiro, começando do zero.
+O Pet inteiro, começando do zero, terminado em 06/04.
 - Com quem e como fez?  
 Acompanhando o vídeo da aula e com ajuda do grupo no whatsapp algumas vezes, mas consegui fazer algumas (poucas) partes sozinho.
 - O que aprendeu a fazer?  
