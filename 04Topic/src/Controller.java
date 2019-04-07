@@ -21,7 +21,7 @@ class Passageiro {
     }
 }
 
- class Topic {
+class Topic {
     ArrayList <Passageiro> poltronas;
     int quantPreferenciais;
 
