@@ -17,7 +17,7 @@ class Passageiro {
 
 
     public boolean preferencial() {
-        return (idade <= 60);
+        return (idade >= 60);
     }
 }
 
@@ -89,13 +89,15 @@ public class Controller {
             String[] ui = line.split(" ");
             if (ui[0].equals("init")) {
                 topic = new Topic(Integer.parseInt(ui[1]), Integer.parseInt(ui[2]));
-            } else if (ui[0].equals("show")) {
+            }else if (ui[0].equals("show")) {
                 System.out.println(topic);
-            } else if (ui[0].equals("inserir")) {
+            }else if (ui[0].equals("inserir")) {
                 topic.inserir(new Passageiro(ui[1], Integer.parseInt(ui[2])));
-            } else if (ui[0].equals("end")) {
+            }else if (ui[0].equals("remover")) {
+                topic.remover(ui[1]);
+            }else if (ui[0].equals("end")) {
                 break;
-            } else {
+            }else {
                 System.out.println("comando invalido");
             }
         }
