@@ -38,12 +38,12 @@ Fiz progressivamente, fazia um pouquinho por dia, acredito ter levado no máximo
 
 ### 04 - Topic  
 - O que foi feito?  
-Ainda estou fazendo, progressivamente.  
+Tudo do zero.  
 - Com quem e como fez?  
 Fiz junto com o vídeo da aula.  
 - O que aprendeu?  
-Um pouco mais da linguagem que é nova para mim.  
+Um pouco mais da linguagem e algumas funções como o boolean e o teste que percorre a lista.  
 - O que tem dificuldade ainda?  
-Um pouco na lógic, é o que ainda preciso de um pouco de ajuda.  
+Um pouco na lógica, é o que ainda preciso de um pouco de ajuda.  
 - Quanto tempo levou pra fazer?  
-Até o momento, cerca de 2 horas e meia.
+Cerca de 2 horas e meia, progessivamente.
