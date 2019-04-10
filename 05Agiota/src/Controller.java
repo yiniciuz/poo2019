@@ -12,35 +12,68 @@ class Cliente{
         this.saldo = 0;
     }
 
+
     public String toString(){
         return this.id + " : " + this.nome + " : " + this.saldo;
+    }
+}
+
+class Transacao{
+    int idT;
+    float valor;
+    String id;
+
+    public Transacao(int idT, float valor, String id) {
+        this.id = id;
+        this.valor = valor;
+        this.id = id;
+    }
+
+    public String toString() {
+        return " " + idT + " : " + valor + " : " + id;
     }
 }
 
 class Sistema{
     float sySaldo;
     ArrayList<Cliente> clientes;
+    ArrayList<Transacao> transacoes;
 
     public Sistema(float sySaldo){
         this.sySaldo = sySaldo;
         this.clientes = new ArrayList<Cliente>();
+        this.transacoes = new ArrayList<Transacao>();
+
     }
 
     void cadastro (Cliente cliente){
-            if(this.procurar(cliente.id) != null){
-                System.out.println("cliente ja cadastrado");
-                return;
-            }
-            clientes.add(cliente);
+        if(this.procurar(cliente.id) != null){
+            System.out.println("cliente ja cadastrado");
+            return;
+        }
+        clientes.add(cliente);
     }
 
+
     Cliente procurar (String id){
-        for(Cliente cli : clientes) {
-            if (cli.id.equals(id)){
-                return cli;
+        for(Cliente i : clientes) {
+            if (i.id.equals(id)){
+                return i;
             }
         }
         return null;
+    }
+
+    void receber(String id, float saldo){
+        Cliente i = procurar(id);
+        if (i == null){
+            System.out.println("cliente inexistente");
+            return;
+        }
+        if(i.saldo < saldo){
+            System.out.println("saldo insuficiente");
+        }
+        
     }
 
     void emprestar (String id, float saldo){
@@ -55,6 +88,11 @@ class Sistema{
         }
         this.sySaldo -= saldo;
         i.saldo += saldo;
+    }
+
+
+    ArrayList<Transacao> getHistorico(){
+        return transacoes;
     }
 
     public String toString(){
@@ -84,6 +122,9 @@ public class Controller{
                     nome += ui[i] + " ";
                 }nome = nome.substring(0, nome.length() -1);
                 sistema.cadastro(new Cliente(id, nome));
+            }else if(ui[0].equals("historico")){
+                for(Transacao i : sistema.getHistorico())
+                    System.out.println(i);
             }else if(ui[0].equals("emprestar")){
                 sistema.emprestar(ui[1], Float.parseFloat(ui[2]));
             }else if(ui[0].equals("end")){
