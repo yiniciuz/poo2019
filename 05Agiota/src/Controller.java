@@ -27,20 +27,41 @@ class Sistema{
     }
 
     void cadastro (Cliente cliente){
-        for(Cliente i : clientes){
-            if(i.id.equals(cliente.id)){
-                System.out.println("erro: cliente ja existente");
+            if(this.procurar(cliente.id) != null){
+                System.out.println("cliente ja cadastrado");
                 return;
-            }clientes.add(cliente);
+            }
+            clientes.add(cliente);
+    }
 
+    Cliente procurar (String id){
+        for(Cliente cli : clientes) {
+            if (cli.id.equals(id)){
+                return cli;
+            }
         }
+        return null;
+    }
+
+    void emprestar (String id, float saldo){
+        Cliente i = procurar(id);
+        if(i == null){
+            System.out.println("cliente inexistente");
+            return;
+        }
+        if(sySaldo < saldo){
+            System.out.println("erro: saldo insuficiente");
+            return;
+        }
+        this.sySaldo -= saldo;
+        i.saldo += saldo;
     }
 
     public String toString(){
         String saida = "";
         for(Cliente cliente : clientes)
-            saida += clientes + "/n";
-        saida += "saldo: " + sySaldo;
+            saida += cliente + "\n";
+        saida += "saldo: " + this.sySaldo;
         return saida;
     }
 }
@@ -60,8 +81,11 @@ public class Controller{
                 String id = ui[1];
                 String nome = "";
                 for(int i = 2; i < ui.length; i++){
-                    nome += ui[i];
-                }nome.substring(0, nome.length() -1);
+                    nome += ui[i] + " ";
+                }nome = nome.substring(0, nome.length() -1);
+                sistema.cadastro(new Cliente(id, nome));
+            }else if(ui[0].equals("emprestar")){
+                sistema.emprestar(ui[1], Float.parseFloat(ui[2]));
             }else if(ui[0].equals("end")){
                 break;
             }else{
@@ -69,4 +93,4 @@ public class Controller{
             }
         }
     }
-        }
+}

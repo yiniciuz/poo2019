@@ -47,3 +47,15 @@ Um pouco mais da linguagem e algumas funções como o boolean e o teste que perc
 Um pouco na lógica, é o que ainda preciso de um pouco de ajuda.  
 - Quanto tempo levou pra fazer?  
 Cerca de 2 horas e meia, progessivamente.
+
+### 05 - Agiota  
+- O que foi feito?  
+Até agora, apenas aquilo que foi feito em sala, mas prossigo trabalhando nele.  
+- Com quem e como fez?  
+Acompanhando o vídeo da aula.  
+- O que aprendeu?  
+Um pouco mais sobre como trabalhar com ArrayList e a organuzação das classe em si, em relação a testes como, no caso, se o id já existe no ArrayList ou não.  
+- O que tem dificuldade ainda?  
+A lógica ainda não é o meu forte mas já venho aprendendo, principalmente pela repetição já consigo prever algo já feito antes. Acredito já ter dominado a lógica de contrução, o fluxo de programação, que tinha dificuldade no começo.  
+- Quanto tempo levou pra fazer?  
+Até agora, cerca de 2 horas.
