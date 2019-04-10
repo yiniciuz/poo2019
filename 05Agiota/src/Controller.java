@@ -1,6 +1,23 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+class Transacao{
+    int idT;
+    float valor;
+    String id;
+
+    public Transacao(int idT, float valor, String id) {
+        this.idT = idT;
+        this.valor = valor;
+        this.id = id;
+    }
+
+    public String toString() {
+        return " " + idT + " : " + id + " : " + valor;
+    }
+}
+
+
 class Cliente{
     String id;
     String nome;
@@ -18,40 +35,27 @@ class Cliente{
     }
 }
 
-class Transacao{
-    int idT;
-    float valor;
-    String id;
-
-    public Transacao(int idT, float valor, String id) {
-        this.id = id;
-        this.valor = valor;
-        this.id = id;
-    }
-
-    public String toString() {
-        return " " + idT + " : " + valor + " : " + id;
-    }
-}
-
 class Sistema{
     float sySaldo;
     ArrayList<Cliente> clientes;
     ArrayList<Transacao> transacoes;
+    int cont;
 
     public Sistema(float sySaldo){
         this.sySaldo = sySaldo;
         this.clientes = new ArrayList<Cliente>();
         this.transacoes = new ArrayList<Transacao>();
+        this.cont = 0;
 
     }
 
     void cadastro (Cliente cliente){
-        if(this.procurar(cliente.id) != null){
-            System.out.println("cliente ja cadastrado");
-            return;
+        try{
+            this.procurar(cliente.id);
+            throw new RuntimeException("cliente ja cadastrado");
+        }catch (RuntimeException re){
+            clientes.add(cliente);
         }
-        clientes.add(cliente);
     }
 
 
@@ -61,33 +65,34 @@ class Sistema{
                 return i;
             }
         }
-        return null;
+        throw new RuntimeException("cliente inexistente");
+    }
+
+    void addTransacao(String id, float valor){
+        this.transacoes.add(new Transacao(cont, valor, id));
+        cont += 1;
+    }
+
+    void emprestar(String id, float saldo){
+        Cliente i = procurar(id);
+        if(sySaldo < saldo) {
+            System.out.println("valor muito alto");
+            return;
+        }
+        addTransacao(id, -saldo);
+        this.sySaldo -= saldo;
+        i.saldo += saldo;
     }
 
     void receber(String id, float saldo){
         Cliente i = procurar(id);
-        if (i == null){
-            System.out.println("cliente inexistente");
+        if(i.saldo < saldo) {
+            System.out.println("valor maior que a divida");
             return;
         }
-        if(i.saldo < saldo){
-            System.out.println("saldo insuficiente");
-        }
-        
-    }
-
-    void emprestar (String id, float saldo){
-        Cliente i = procurar(id);
-        if(i == null){
-            System.out.println("cliente inexistente");
-            return;
-        }
-        if(sySaldo < saldo){
-            System.out.println("erro: saldo insuficiente");
-            return;
-        }
-        this.sySaldo -= saldo;
-        i.saldo += saldo;
+        addTransacao(id, +saldo) ;
+        this.sySaldo += saldo;
+        i.saldo -= saldo;
     }
 
 
@@ -123,9 +128,11 @@ public class Controller{
                 }nome = nome.substring(0, nome.length() -1);
                 sistema.cadastro(new Cliente(id, nome));
             }else if(ui[0].equals("historico")){
-                for(Transacao i : sistema.getHistorico())
+                for (Transacao i : sistema.getHistorico())
                     System.out.println(i);
             }else if(ui[0].equals("emprestar")){
+                sistema.receber(ui[1], Float.parseFloat(ui[2]));
+            }else if(ui[0].equals("receber")){
                 sistema.emprestar(ui[1], Float.parseFloat(ui[2]));
             }else if(ui[0].equals("end")){
                 break;
