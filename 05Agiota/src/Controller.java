@@ -116,28 +116,34 @@ public class Controller{
         while(true){
             String line = scan.nextLine();
             String[] ui = line.split(" ");
-            if (ui[0].equals("init")){
-                sistema = new Sistema(Float.parseFloat(ui[1]));
-            }else if(ui[0].equals("show")){
-                System.out.println(sistema);
-            }else if(ui[0].equals("cadastrar")){
-                String id = ui[1];
-                String nome = "";
-                for(int i = 2; i < ui.length; i++){
-                    nome += ui[i] + " ";
-                }nome = nome.substring(0, nome.length() -1);
-                sistema.cadastro(new Cliente(id, nome));
-            }else if(ui[0].equals("historico")){
-                for (Transacao i : sistema.getHistorico())
-                    System.out.println(i);
-            }else if(ui[0].equals("emprestar")){
-                sistema.receber(ui[1], Float.parseFloat(ui[2]));
-            }else if(ui[0].equals("receber")){
-                sistema.emprestar(ui[1], Float.parseFloat(ui[2]));
-            }else if(ui[0].equals("end")){
-                break;
-            }else{
-                System.out.println("comando invalido!");
+            try {
+                if (ui[0].equals("init")) {
+                    sistema = new Sistema(Float.parseFloat(ui[1]));
+                } else if (ui[0].equals("show")) {
+                    System.out.println(sistema);
+                } else if (ui[0].equals("cadastrar")) {
+                    String id = ui[1];
+                    String nome = "";
+                    for (int i = 2; i < ui.length; i++) {
+                        nome += ui[i] + " ";
+                    }
+                    nome = nome.substring(0, nome.length() - 1);
+                    sistema.cadastro(new Cliente(id, nome));
+                } else if (ui[0].equals("historico")) {
+                    for (Transacao i : sistema.getHistorico())
+                        System.out.println(i);
+                } else if (ui[0].equals("emprestar")) {
+                    sistema.receber(ui[1], Float.parseFloat(ui[2]));
+                } else if (ui[0].equals("receber")) {
+                    sistema.emprestar(ui[1], Float.parseFloat(ui[2]));
+                } else if (ui[0].equals("end")) {
+                    break;
+                } else {
+                    System.out.println("comando invalido!");
+                }
+            }
+            catch(RuntimeException re){
+                System.out.println(re.getMessage());
             }
         }
     }
