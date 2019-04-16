@@ -95,10 +95,10 @@ class Sistema{
         i.saldo -= saldo;
     }
 
-
     ArrayList<Transacao> getHistorico(){
         return transacoes;
     }
+
 
     public String toString(){
         String saida = "";

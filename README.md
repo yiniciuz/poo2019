@@ -50,12 +50,12 @@ Cerca de 2 horas e meia, progessivamente.
 
 ### 05 - Agiota  
 - O que foi feito?  
-Até agora, apenas aquilo que foi feito em sala, mas prossigo trabalhando nele.  
+O agiota todo, do zero, de parte em parte.  
 - Com quem e como fez?  
-Acompanhando o vídeo da aula.  
+Acompanhando o vídeo da aula e com auxílio do professor em uma aula de esclarecimento.  
 - O que aprendeu?  
-Um pouco mais sobre como trabalhar com ArrayList e a organuzação das classe em si, em relação a testes como, no caso, se o id já existe no ArrayList ou não.  
+Tive uma noção mais básica das exceções e melhora na lógica que sentia dificuldade.  
 - O que tem dificuldade ainda?  
-A lógica ainda não é o meu forte mas já venho aprendendo, principalmente pela repetição já consigo prever algo já feito antes. Acredito já ter dominado a lógica de contrução, o fluxo de programação, que tinha dificuldade no começo.  
+Ainda acho que não consigo fazer um código sozinho do zero, mas consigo fazer booooa parte, já consigo desenvolver bem a lógica mas, como o professor diz, pelo caminho mais longe. Eu sei que há caminhos mais fáceis mas ainda não consigo ir por eles, elaboro de um jeito mais longo e como uma "gambiarra" (não que seja, necessariamente).  
 - Quanto tempo levou pra fazer?  
-Até agora, cerca de 2 horas.
+Cerca de 3 horas.
