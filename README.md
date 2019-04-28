@@ -70,4 +70,4 @@ Tive um bom conhecimento de como funciona mapas e entendi bem o conteúdo, não 
 - O que tem dificuldade ainda?  
 Ainda na lógica, mas progressivamente vem diminuindo. Entendi mapa mas ainda não consigo desenvolver inteiramente sozinho, nescessito de prática.  
 - Quanto tempo levou pra fazer?  
-Cerca de 2 e meia horas.
+Cerca de 2 hroas e meia.
