@@ -59,3 +59,15 @@ Tive uma noção mais básica das exceções e melhora na lógica que sentia dif
 Ainda acho que não consigo fazer um código sozinho do zero, mas consigo fazer booooa parte, já consigo desenvolver bem a lógica mas, como o professor diz, pelo caminho mais longe. Eu sei que há caminhos mais fáceis mas ainda não consigo ir por eles, elaboro de um jeito mais longo e como uma "gambiarra" (não que seja, necessariamente).  
 - Quanto tempo levou pra fazer?  
 Cerca de 3 horas.
+
+### 06 - Mapa  
+- O que foi feito?  
+O exemplo do professor na aula e a adição de novos métodos. Foi pedido para adicionar o Obter e o Remover, porém só consegui fazer o remover. Mas, em relação ao restante do código, consegui fazer do zero, vi como o professor fez e ao invés de copiar e colar como havia pedido, consegui começar sozinho.  
+- Com quem e como fez?  
+Sozinho com a ajuda do vídeo da aula que acabei faltando.  
+- O que aprendeu?  
+Tive um bom conhecimento de como funciona mapas e entendi bem o conteúdo, não achei tão difícil mas requer prática, foi só meu primeiro contato.  
+- O que tem dificuldade ainda?  
+Ainda na lógica, mas progressivamente vem diminuindo. Entendi mapa mas ainda não consigo desenvolver inteiramente sozinho, nescessito de prática.  
+- Quanto tempo levou pra fazer?  
+Cerca de 2 e meia horas.
