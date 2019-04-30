@@ -1,6 +1,6 @@
 ![Alt Text](https://github.com/yinicius/poo2019.1/blob/master/foto.jpg)
 
-### 01 - Carro em Python
+### 20/02/19 - Carro em Python
   - O que foi feito?  
     Refiz o carro todo do zero.
   - Com quem e como fez?  
@@ -12,7 +12,7 @@
   - Quanto tempo levou pra fazer?  
   Por volta de 2 horas corridas.
     
-### 02 - Caluladora em Python
+### 27/02/19 - Caluladora em Python
   - O que foi feito?  
     Refiz a calculadora todo do zero.
   - Com quem e como fez?  
@@ -24,7 +24,7 @@
   - Quanto tempo levou pra fazer?  
   Por volta de 2 horas e meia.
 
-### 03 - Pet em java
+### 06/04/19 - Pet em java
 - O que foi feito?  
 O Pet inteiro, começando do zero, terminado em 06/04.
 - Com quem e como fez?  
@@ -36,7 +36,7 @@ Em partes da linguagem por ser nova, porém consigo ler um código e entender, m
 - Quanto tempo levou pra fazer?  
 Fiz progressivamente, fazia um pouquinho por dia, acredito ter levado no máximo 4 horas e meia.
 
-### 04 - Topic  
+### 09/04/19 - Topic  
 - O que foi feito?  
 Tudo do zero.  
 - Com quem e como fez?  
@@ -48,7 +48,7 @@ Um pouco na lógica, é o que ainda preciso de um pouco de ajuda.
 - Quanto tempo levou pra fazer?  
 Cerca de 2 horas e meia, progessivamente.
 
-### 05 - Agiota  
+### 16/04/19 - Agiota  
 - O que foi feito?  
 O agiota todo, do zero, de parte em parte.  
 - Com quem e como fez?  
@@ -60,7 +60,7 @@ Ainda acho que não consigo fazer um código sozinho do zero, mas consigo fazer 
 - Quanto tempo levou pra fazer?  
 Cerca de 3 horas.
 
-### 06 - Mapa  
+### 28/04/19 - Mapa  
 - O que foi feito?  
 O exemplo do professor na aula e a adição de novos métodos. Foi pedido para adicionar o Obter e o Remover, porém só consegui fazer o remover. Mas, em relação ao restante do código, consegui fazer do zero, vi como o professor fez e ao invés de copiar e colar como havia pedido, consegui começar sozinho.  
 - Com quem e como fez?  
@@ -70,4 +70,4 @@ Tive um bom conhecimento de como funciona mapas e entendi bem o conteúdo, não 
 - O que tem dificuldade ainda?  
 Ainda na lógica, mas progressivamente vem diminuindo. Entendi mapa mas ainda não consigo desenvolver inteiramente sozinho, nescessito de prática.  
 - Quanto tempo levou pra fazer?  
-Cerca de 2 hroas e meia.
+Cerca de 2 horas e meia.
