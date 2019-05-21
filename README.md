@@ -60,7 +60,7 @@ Ainda acho que não consigo fazer um código sozinho do zero, mas consigo fazer 
 - Quanto tempo levou pra fazer?  
 Cerca de 3 horas.
 
-### 28/04/19 - Mapa  
+### 28/04/19 - Mapa (salário)  
 - O que foi feito?  
 O exemplo do professor na aula e a adição de novos métodos. Foi pedido para adicionar o Obter e o Remover, porém só consegui fazer o remover. Mas, em relação ao restante do código, consegui fazer do zero, vi como o professor fez e ao invés de copiar e colar como havia pedido, consegui começar sozinho.  
 - Com quem e como fez?  
@@ -71,3 +71,15 @@ Tive um bom conhecimento de como funciona mapas e entendi bem o conteúdo, não 
 Ainda na lógica, mas progressivamente vem diminuindo. Entendi mapa mas ainda não consigo desenvolver inteiramente sozinho, nescessito de prática.  
 - Quanto tempo levou pra fazer?  
 Cerca de 2 horas e meia.
+
+### 21/05/19 - Agência Bancária  
+- O que foi feito?  
+Apenas a parte de TreeMap, deposito e saque, mas já com controller. Eu sei que precisaria e seria mais fácil o uso de funções como herança e até banco, mas não cosegui. Tentar fazer o mais que sabia e até um pouco mais (como o TreeMap). COnfesso que ficou faltando algumas coisas imporntantes. Não está extamente como nos exemplos da atividade mas tentei deixar o máximo parecido e funcional. Peço desculpas pois sinto está entregando uma atividade pela metade, mas senti dificuldades e tentei bastante.  
+- Com quem e como fez?  
+Sozinho, acompanhando os códigos já feitos por mim.  
+- O que aprendeu?  
+Acredito ter entendido um pouco mais sobre map, que não tinha entendido direito.  
+- O que tem dificuldade ainda?  
+Senti muito dificuldade em fazer sozinho, sem ajuda principalmente dos vídeos das aulas. Não consegui fazer algumas coisas como implementar melhor o map ou usar banco e herança, são as 3 coisas que ainda tenho dificuldade.  
+- Quanto tempo levou pra fazer?  
+Cerca de 6 horas.

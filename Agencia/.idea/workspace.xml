@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4711579-3062-4f32-a598-a1fd61334e67" name="Default Changelist" comment="">
+    <list default="true" id="97f12a72-3d5c-46e2-98c6-956439eb026c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Salario/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mapa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/AgiotaMapa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgiotaMapa/src/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,16 +64,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="AgiotaMapa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgiotaMapa" type="462c0819:PsiDirectoryNode" />
+              <item name="Agencia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Agencia" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,16 +90,30 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller" />
+      <module name="Agencia" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Controller" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4711579-3062-4f32-a598-a1fd61334e67" name="Default Changelist" comment="" />
-      <created>1556646835513</created>
+      <changelist id="97f12a72-3d5c-46e2-98c6-956439eb026c" name="Default Changelist" comment="" />
+      <created>1558281446813</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556646835513</updated>
+      <updated>1558281446813</updated>
     </task>
     <servers />
   </component>
@@ -119,9 +127,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956383" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -142,10 +151,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="1602">
+          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
           </folding>
         </state>
       </provider>
