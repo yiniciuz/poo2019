@@ -83,3 +83,15 @@ Acredito ter entendido um pouco mais sobre map, que não tinha entendido direito
 Senti muito dificuldade em fazer sozinho, sem ajuda principalmente dos vídeos das aulas. Não consegui fazer algumas coisas como implementar melhor o map ou usar banco e herança, são as 3 coisas que ainda tenho dificuldade.  
 - Quanto tempo levou pra fazer?  
 Cerca de 6 horas.
+
+### 21/06/19 - Twitter  
+- O que foi feito?  
+Do zero. A parte do sistema visto em sala, ainda comecei a implementação de mais alguma coisa mas não consiguia desenvlover de fato a lógica.  
+- Com quem e como fez?  
+Sozinho, acompanhando a aula.  
+- O que aprendeu?  
+Entendi de fato o uso de mapa e como usar de fato, tinha ainda algumas dúvidas mas acredito ter entendido completamente.  
+- O que tem dificuldade ainda?  
+Acho que ainda na lógica, o uso de UML ajuda bastante, ainda não aprendi o uso dele mas pelo que o professor mostrou em sala, deu pra ver que soluciona esse problema que venho tendo ao longo do semestre.  
+- Quanto tempo levou pra fazer?  
+Cerca de 2 horas.
