@@ -50,6 +50,7 @@
     <option name="width" value="987" />
     <option name="height" value="557" />
   </component>
+  <component name="ProjectId" id="1Pegw2UitEuMpl4YvNjs1M36yMI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -70,6 +71,9 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
