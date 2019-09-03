@@ -1,4 +1,6 @@
-public class PrincipalCarro {
+package carro1;
+
+public class Controller {
     public static void main(String args[]) {
         Carro rebeca = new Carro();
         rebeca.marca = "Honda";
