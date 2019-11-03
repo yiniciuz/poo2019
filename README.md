@@ -19,9 +19,8 @@ Abstração - Abstração de procedimentos, é separar o programa em partes (sub
 
 Pacote - Um pacote representa um conjunto de classes que tem uma mesma função semântica no código. Separamos as classes em pacotes como um forma de organização. Um pacote é representado por uma pasta que contém um arquivo de uma classe se e somente se a classe está dentro desse pacote.
 
-Classe - É uam entidade que contém os atributos e os métodos de um objeto. Em outras palavras, ela diz as características e comportamentos de um objeto.
+Classe - É uma entidade que contém os atributos e os métodos de um objeto. Em outras palavras, ela diz as características e comportamentos de um objeto.
 
 Construtor - É um método especial de um objeto chamado no momento em que o objeto é criado. Já existe por padrão, mas podemos sobrescrevê-lo colocando os comportamentos que queremos. Geralmente o usamos para inicializar os atributos do objeto.
 
 toString - É um método especial do objeto chamado no momento em que tentamos converter o objeto em String. Esse método retorna uma String que é o objeto convertido em String. Por padrão, já existe (no Java), mas podemos sobrescrevê-lo. Geralmente retornamos uma String com os atributos do objeto.
-
