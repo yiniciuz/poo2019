@@ -1,12 +1,15 @@
 public class Pet {
     private String nomePet;
     private int idade;
+    private String tipo;
     private String detalhes;
 
     public Pet(){};
-    public Pet(String nomePet, int idade, String detalhes) {
+    public Pet(String nomePet, int idade, String detalhes) {}
+    public Pet(String nomePet, int idade, String tipo, String detalhes) {
         this.nomePet = nomePet;
         this.idade = idade;
+        this.tipo = tipo;
         this.detalhes = detalhes;
     }
 
@@ -16,6 +19,7 @@ public class Pet {
                 "nomePet='" + nomePet + '\'' +
                 ", idade=" + idade +
                 ", detalhes='" + detalhes + '\'' +
+                ", tipo='" + tipo + '\'' +
                 '}';
     }
 

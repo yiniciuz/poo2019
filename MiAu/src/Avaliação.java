@@ -1,12 +1,24 @@
-public class Avaliação {
+import java.util.Scanner;
+
+public class Avaliação{
     private String nome;
     private float nota;
     private String detalhes;
 
     public Avaliação(){};
-    public Avaliação(String nome, float nota) {
+    public Avaliação(String nome, float nota, String detalhes) {
         this.nome = nome;
         this.nota = nota;
+        this.detalhes = detalhes;
+    }
+
+    @Override
+    public String toString() {
+        return "Avaliação{" +
+                "nome='" + nome + '\'' +
+                ", nota=" + nota +
+                ", detalhes='" + detalhes + '\'' +
+                '}';
     }
 
     public String getNome() {
@@ -16,6 +28,7 @@ public class Avaliação {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
 
     public float getNota() {
         return nota;
@@ -30,10 +43,6 @@ public class Avaliação {
     }
 
     public void setDetalhes(String detalhes) {
-        this.detalhes = detalhes;
-    }
-
-    public void enviarAvaliação(String detalhes){
         this.detalhes = detalhes;
     }
 }

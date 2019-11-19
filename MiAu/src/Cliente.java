@@ -65,16 +65,15 @@ public class Cliente {
         this.endereço = endereço;
     }
 
+    public void fazerAvalaiação(Avaliação avaliação){
+        System.out.println(avaliação);
+    }
 
-    public String selecionarTarefa(){
+    public void selecionarTarefa(String tipo){
 
     }
 
-    public void avaliarCuidador(Cuidador cuidador){
-
-    }
-
-    public void cadastrarPet(Pet animal){
-
+    public void cadastrarPet(String nomePet, int idadePet, String tipo, String detalhes){
+        Pet animal = new Pet(nomePet, idadePet, tipo, detalhes);
     }
 }
